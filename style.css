@@ -16,6 +16,11 @@
     border-radius: 20px;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
 #h1{
     font-family: 'Pacifico', cursive;
     color: lavenderblush;
@@ -34,19 +39,29 @@
     background-color: black;
     align-content: center;
     font-size: xx-large;
-    color:yellow;
+    color:purple;
     border-radius: 20px;
 }
 
 #minutes_val {
     padding-bottom: 40px;
     padding-top: 10px;
+    color: yellow;
 }
 #hour_val {
     padding-bottom: 40px;
     padding-top: 10px;
+    color: yellow;
 }
+
+#today_val,
 #second_val {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    color: yellow;
+}
+
+#today_text{
     padding-bottom: 40px;
     padding-top: 10px;
 }

@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: blueviolet;
+}
+
+.container{
+    margin: auto;
+    margin-top: 60px;
+    align-content: center;
+    background-color: black;
+    display: flex;
+    max-width: fit-content;
+    flex-direction: row;
+    border: 3px solid cyan;
+    border-radius: 20px;
+}
+
+#h1{
+    font-family: 'Pacifico', cursive;
+    color: lavenderblush;
+    background-color: black;
+    margin: auto;
+    font-size: xxx-large;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    position: sticky;
+}
+
+.time{
+    padding: 40px;
+    padding-bottom: 20px;
+    background-color: black;
+    align-content: center;
+    font-size: xx-large;
+    color:yellow;
+    border-radius: 20px;
+}
+
+#minutes_val {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+#hour_val {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+#second_val {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}

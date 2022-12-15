@@ -6,12 +6,12 @@ const d = new Date();
 let h = d.getHours();
 let m = d.getMinutes();
 let s = d.getSeconds();
+let date = d.getDate();
+let  month = months[d.getUTCMonth()]
+let year = d.getFullYear();
+let day = weekday[d.getUTCDay()];
 
-console.log(h);
-console.log(m);
-console.log(s);
-
-// console.log(today);
+let today = `${day}-${date}-${month}-${year}`;
 document.getElementById('today_val').innerHTML = today;
 document.getElementById('hour_val').innerText = h;
 document.getElementById('minutes_val').innerHTML = m;
